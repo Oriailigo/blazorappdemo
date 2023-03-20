@@ -2,7 +2,7 @@
  blazorappdemo- Curso de Aplicaciones Web con Blazor WebAssembly y .NET-- dotnet 6 💚  
 <img width="100" src="https://static.platzi.com/cdn-cgi/image/width=1024,quality=50,format=auto/media/achievements/piezas-aplicaciones-web-blazor-erbassembly-net_buenas-practicas-y-codigo-limpio-en-.png" alt=".NET logo"></a></h1>
 <p align="center"> 
-<span> API </span>: https://api.escuelajs.co/api/
+<span>Consumo de API </span>: https://api.escuelajs.co/api/
 </p>
 
 
@@ -24,7 +24,7 @@
 * CSS
 * JS (usando el import IJSRuntime)
 * Blazor
-* IToastService (bilioteca de tercero para generar un aviso)
+* IToastService (bilioteca de tercero para generar un aviso emergente con tiempo de muestra)
 ## Maquetado:
 > No se realizó.
 ## Páginas:
