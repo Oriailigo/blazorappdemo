@@ -28,7 +28,8 @@
 ## Maquetado:
 > No se realizó.
 ## Páginas:
-  * ### index:
+  * ### product: Se listan los productos para eliminar, editar o agregar.
+  * ### category: Se listan las categorias para eliminar, editar o agregar.
 
 ### URL del sitio:  
 * [boleta de productos](https://github.com/vuejs/vue/blob/dev/.github/CONTRIBUTING.md)
@@ -40,7 +41,17 @@
 https://dotnet.microsoft.com/en-us/download/dotnet/6.0
 
 ```
-correr el comando 
+
+## Comandos para correr el proyecto:
+
+```
+dotnet run
+
+```
+
+## Comandos para comenzar un nuevo proyecto (se realizo lo siguiente):
+
+correr los siguientes comandos para crear el proyecto 
 
 ```
 dotnet
@@ -56,6 +67,17 @@ dotnet new blazorwasm
 dotnet build 
 
 ```
+
+## 1- Incorporar libreria toast:
+
+correr los siguientes comandos para incorporar la libreria toast (instalar paquete)
+
+```
+dotnet add package Blazored.Toast
+
+```
+## 2- se debe configurar el servicio en el archivo program.cs:
+
 
 ## Sistema de archivos relevante:
 > 1) script.js: 
