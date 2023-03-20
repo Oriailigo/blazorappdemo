@@ -79,6 +79,27 @@ dotnet add package Blazored.Toast
 ## 2- se debe configurar el servicio en el archivo program.cs:
 ![image](https://user-images.githubusercontent.com/31573758/226487262-6b4b8f1a-df5f-406f-9897-527b2dee6600.png)
 
+## 3 - vamos al archivo  imports.razor y colocamos los using del toast:
+![image](https://user-images.githubusercontent.com/31573758/226487408-61feba0d-8868-4a1c-86fa-c919fc1f2bf3.png)
+
+## 4 - vamos al mainlayout.razor y agregamos nuestro componente toast:
+![image](https://user-images.githubusercontent.com/31573758/226487487-65ef5a0e-1e8e-4bba-b32d-3e430508f393.png)
+
+## 5 - vamos a wwwroot luego al index.html e invocamos los estilos del toast:
+![image](https://user-images.githubusercontent.com/31573758/226487629-41428cdd-136f-455d-bed3-70d9fe21b1f0.png)
+
+## 6 - vamos a products.razor y en la parte del procedure delete  inyectamos el servicio:
+![image](https://user-images.githubusercontent.com/31573758/226487683-4eea4ee2-e7cf-43eb-b30c-d851339984cf.png)
+
+## 7 - cuando se elimina se agrega lo siguiente:
+![image](https://user-images.githubusercontent.com/31573758/226487772-6d238b57-305e-4b77-9086-d210d7a8f35a.png)
+
+![image](https://user-images.githubusercontent.com/31573758/226487790-9458f2c4-ad5f-4c41-a6a8-fadd2557239f.png)
+
+##  podemos ver mas informacion de esta librería (Toast) aca:
+https://www.appsloveworld.com/blazor/100/11/blazored-toast-not-working-from-the-view-model
+
+
 
 ## Sistema de archivos relevante:
 > 1) script.js: 
