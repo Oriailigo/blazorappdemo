@@ -77,6 +77,7 @@ dotnet add package Blazored.Toast
 
 ```
 ## 2- se debe configurar el servicio en el archivo program.cs:
+![image](https://user-images.githubusercontent.com/31573758/226487262-6b4b8f1a-df5f-406f-9897-527b2dee6600.png)
 
 
 ## Sistema de archivos relevante:
