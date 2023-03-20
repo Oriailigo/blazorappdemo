@@ -41,6 +41,20 @@
 https://dotnet.microsoft.com/en-us/download/dotnet/6.0
 
 ```
+## si decea tener una mejor experiencia codeando instale lo siguiente: Analizando extensiones de Visual code para blazor:
+```
+C#
+```
+![image](https://user-images.githubusercontent.com/31573758/226488468-d6a2dc5f-2727-47ce-92f9-941c8ae1998f.png)
+
+
+Sniper para blazor
+```
+blazor
+```
+![image](https://user-images.githubusercontent.com/31573758/226488524-09b04b32-e7b0-4884-90cc-e941d53ee0ca.png)
+
+
 
 ## Comandos para correr el proyecto:
 
@@ -97,7 +111,7 @@ dotnet add package Blazored.Toast
 ![image](https://user-images.githubusercontent.com/31573758/226487790-9458f2c4-ad5f-4c41-a6a8-fadd2557239f.png)
 
 ##  podemos ver mas informacion de esta librería (Toast) aca:
-https://www.appsloveworld.com/blazor/100/11/blazored-toast-not-working-from-the-view-model
+*   https://www.appsloveworld.com/blazor/100/11/blazored-toast-not-working-from-the-view-model
 
 
 
