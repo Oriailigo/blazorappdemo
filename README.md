@@ -41,7 +41,7 @@
 https://dotnet.microsoft.com/en-us/download/dotnet/6.0
 
 ```
-## si decea tener una mejor experiencia codeando instale lo siguiente: Analizando extensiones de Visual code para blazor:
+## Si decea tener una mejor experiencia codeando instale lo siguiente: Analizando extensiones de Visual code para blazor:
 ```
 C#
 ```
@@ -84,7 +84,7 @@ dotnet build
 
 ## 1- Incorporar libreria toast:
 
-correr los siguientes comandos para incorporar la libreria toast (instalar paquete)
+Correr el siguiente comando para incorporar la libreria toast (instalar paquete)
 
 ```
 dotnet add package Blazored.Toast
@@ -113,8 +113,3 @@ dotnet add package Blazored.Toast
 ##  podemos ver mas informacion de esta librería (Toast) aca:
 *   https://www.appsloveworld.com/blazor/100/11/blazored-toast-not-working-from-the-view-model
 
-
-
-## Sistema de archivos relevante:
-> 1) script.js: 
-> 2) hay otros 2 que no se entienden nada:
