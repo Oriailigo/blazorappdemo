@@ -9,43 +9,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -2019232225,
-        "Kind": "Components.Component",
-        "Name": "blazorappdemo.App",
-        "AssemblyName": "blazorappdemo",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazorappdemo.App",
-          "Common.TypeNamespace": "blazorappdemo",
-          "Common.TypeNameIdentifier": "App"
-        }
-      },
-      {
-        "HashCode": -1453722536,
-        "Kind": "Components.Component",
-        "Name": "blazorappdemo.App",
-        "AssemblyName": "blazorappdemo",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazorappdemo.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazorappdemo.App",
-          "Common.TypeNamespace": "blazorappdemo",
-          "Common.TypeNameIdentifier": "App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1261900951,
         "Kind": "Components.Component",
         "Name": "blazorappdemo.Pages.Index",
@@ -490,6 +453,43 @@
           "Common.TypeName": "blazorappdemo.Shared.NavMenu",
           "Common.TypeNamespace": "blazorappdemo.Shared",
           "Common.TypeNameIdentifier": "NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -2019232225,
+        "Kind": "Components.Component",
+        "Name": "blazorappdemo.App",
+        "AssemblyName": "blazorappdemo",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazorappdemo.App",
+          "Common.TypeNamespace": "blazorappdemo",
+          "Common.TypeNameIdentifier": "App"
+        }
+      },
+      {
+        "HashCode": -1453722536,
+        "Kind": "Components.Component",
+        "Name": "blazorappdemo.App",
+        "AssemblyName": "blazorappdemo",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazorappdemo.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazorappdemo.App",
+          "Common.TypeNamespace": "blazorappdemo",
+          "Common.TypeNameIdentifier": "App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

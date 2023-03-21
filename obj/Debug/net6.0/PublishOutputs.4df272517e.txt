@@ -1,0 +1,1 @@
+C:\Users\rioja\Desktop\blazorappdemo\bin\Debug\net6.0\publish\web.config
