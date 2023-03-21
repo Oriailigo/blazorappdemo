@@ -1827,11 +1827,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rioja\\Desktop\\platzi\\blazorappdemo\\blazorappdemo.csproj",
+      "projectUniqueName": "C:\\Users\\rioja\\Desktop\\blazorappdemo\\blazorappdemo.csproj",
       "projectName": "blazorappdemo",
-      "projectPath": "C:\\Users\\rioja\\Desktop\\platzi\\blazorappdemo\\blazorappdemo.csproj",
+      "projectPath": "C:\\Users\\rioja\\Desktop\\blazorappdemo\\blazorappdemo.csproj",
       "packagesPath": "C:\\Users\\rioja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rioja\\Desktop\\platzi\\blazorappdemo\\obj\\",
+      "outputPath": "C:\\Users\\rioja\\Desktop\\blazorappdemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rioja\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ommRVS24h+ozAoY37uNekt9K4YcknRinwKomWVUQKwhBIkvBnFRbSRVd7b3y0koF4GlG8r2OxGH0TegnC96SCQ==",
+  "dgSpecHash": "viX+tN/lrfuNUZvDBiaildKTOxPcNB2BgNGvEZhTcoOKfCqhXtfBjWK7TGz6NVJMLh/tIVY5hvLwVfWBder3sA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rioja\\Desktop\\platzi\\blazorappdemo\\blazorappdemo.csproj",
+  "projectFilePath": "C:\\Users\\rioja\\Desktop\\blazorappdemo\\blazorappdemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rioja\\.nuget\\packages\\blazored.toast\\4.1.0\\blazored.toast.4.1.0.nupkg.sha512",
     "C:\\Users\\rioja\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.15\\microsoft.aspnetcore.authorization.6.0.15.nupkg.sha512",
