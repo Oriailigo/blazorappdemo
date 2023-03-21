@@ -17,7 +17,7 @@
 ## Desarrollado por:
 | Linkedin | Repositorio |
 | -------  | ------- |
-| [Ailigo Oriana](linkedin.com/in/oriana-ailigo) | https://github.com/Oriailigo |
+| [Ailigo Oriana](https://www.linkedin.com/in/oriana-ailigo/) | https://github.com/Oriailigo |
 ## Tecnologías:
 * .NET
 * HTML
