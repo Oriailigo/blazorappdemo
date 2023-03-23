@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rioja\\Desktop\\blazorappdemo\\blazorappdemo.csproj": {}
+    "C:\\Users\\oriana.ailigo\\Desktop\\blazorappdemo\\blazorappdemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rioja\\Desktop\\blazorappdemo\\blazorappdemo.csproj": {
+    "C:\\Users\\oriana.ailigo\\Desktop\\blazorappdemo\\blazorappdemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rioja\\Desktop\\blazorappdemo\\blazorappdemo.csproj",
+        "projectUniqueName": "C:\\Users\\oriana.ailigo\\Desktop\\blazorappdemo\\blazorappdemo.csproj",
         "projectName": "blazorappdemo",
-        "projectPath": "C:\\Users\\rioja\\Desktop\\blazorappdemo\\blazorappdemo.csproj",
-        "packagesPath": "C:\\Users\\rioja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rioja\\Desktop\\blazorappdemo\\obj\\",
+        "projectPath": "C:\\Users\\oriana.ailigo\\Desktop\\blazorappdemo\\blazorappdemo.csproj",
+        "packagesPath": "C:\\Users\\oriana.ailigo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oriana.ailigo\\Desktop\\blazorappdemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rioja\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\oriana.ailigo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -50,6 +50,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.15, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.32.1, )"
             }
           },
           "imports": [

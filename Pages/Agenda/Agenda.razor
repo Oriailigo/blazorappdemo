@@ -1,0 +1,101 @@
+
+@page "/agenda"
+
+
+@inject  NavigationManager NavigationManager;
+@inject  IJSRuntime IJSRuntime;
+
+
+<PageTitle>Agenda</PageTitle>
+
+<ModuleTitle Title="Agenda"/>
+<button class="btn btn-dark" @onclick="@(()=> NavigationManager.NavigateTo("/product"))">  Volver al home</button>
+
+
+
+
+        <form>
+			<input type="text" id="q" placeholder="Buscar..." @onkeyup="search">
+		</form>
+		
+
+
+<!--  Developed By Yasser Mas -->
+
+
+
+
+
+
+<table id="myTable" class="table table-striped table-primary">
+  <thead>
+    <tr>
+                <th scope="col">#</th>
+                <th scope="col">@Empleados[0].nombre</th>
+                <th scope="col">@Empleados[0].apellido</th>
+                <th scope="col">@Empleados[0].telefono</th>
+                <th scope="col">@Empleados[0].correo</th>
+                <th scope="col">@Empleados[0].departamento</th>
+                <th scope="col">@Empleados[0].edificio</th>
+                <th scope="col">@Empleados[0].piso</th>
+                <th scope="col">@Empleados[0].fechanacimiento</th>
+             
+    </tr>
+  </thead>
+  <tbody id="the_table_body">
+             
+         @for(var  i = 1; i < 6; i++)
+        {
+            <tr>
+                <th scope="row">@i</th>
+                
+                <td>@Empleados[i].nombre</td>
+                <td>@Empleados[i].apellido</td>
+                <td>@Empleados[i].telefono</td>
+                <td>@Empleados[i].correo</td>
+                <td>@Empleados[i].departamento</td>
+                <td>@Empleados[i].edificio</td>
+                <td>@Empleados[i].piso</td>
+                <td>@Empleados[i].fechanacimiento</td>
+            </tr>
+        }
+   
+  </tbody>
+</table>
+
+
+
+
+
+
+
+
+@code{
+
+  public async Task pag()
+     {
+
+        bool confirmar=await IJSRuntime.InvokeAsync<bool>("pagina");
+    }
+    
+     public async Task search()
+     {
+
+        bool confirmar=await IJSRuntime.InvokeAsync<bool>("search");
+    }
+  List<Empleado> Empleados = new List<Empleado>()
+    {
+        
+        new Empleado() { nombre = "nombre", apellido = "apellido",telefono = "telefono", correo = "correo",departamento = "departamento",edificio = "edificio",piso = "piso", fechanacimiento="fecha de nacimiento", image = "img/tecnovia/frente.jpg", url = "http://10.100.25.253:8081/Login.aspx" },
+        new Empleado() { nombre = "Oriana", apellido = "Ailigo",telefono = "23543534", correo = "Ailigo@gmail.com",departamento = "Sistemas",edificio = "312",piso = "4", fechanacimiento="25/11/1995", image = "img/tecnovia/frente.jpg", url = "http://10.100.25.253:8081/Login.aspx" },
+        new Empleado() { nombre = "Romina", apellido = "italiano",telefono = ",564765756", correo = "Romina@gmail.com",departamento = "Infraestructura",edificio = "453",piso = "4", fechanacimiento="23/03/1995",image = "img/tecnovia/frente.jpg", url = "http://10.100.25.253:8081/Login.aspx" },
+        new Empleado() { nombre = "Sebastian", apellido = "Lordes",telefono = ",435765", correo = "Sebastian@gmail.com",departamento = "RRHH",edificio = "67",piso = "5", fechanacimiento="23/03/1998",image = "img/tecnovia/frente.jpg", url = "http://10.100.25.253:8081/Login.aspx"},
+        new Empleado() { nombre = "Sergio", apellido = "Aguilar",telefono = ",435765", correo = "Sergio@gmail.com",departamento = "Sistemas",edificio = "312",piso = "7", fechanacimiento="23/03/1996",image = "img/tecnovia/frente.jpg", url = "http://10.100.25.253:8081/Login.aspx" },
+        new Empleado() { nombre = "Yany", apellido = "Tolaba",telefono = ",435765", correo = "Yany@gmail.com",departamento = "Sistemas",edificio = "312",piso = "4", fechanacimiento="23/03/1995",image = "img/tecnovia/frente.jpg", url = "http://10.100.25.253:8081/Login.aspx"},
+    };
+
+
+}
+
+
+ 
