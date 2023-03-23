@@ -9,25 +9,109 @@
 
 <PageTitle>Products</PageTitle>
 
-<ModuleTitle Title="Products"/>
-<button class="btn btn-dark" @onclick="@(()=> NavigationManager.NavigateTo("/addproduct"))">  Add Product</button>
-@if (products?.Count > 0){
-    <div class= "products-container">
-            @foreach (var product in products)
-            {
-                <div class="card">
-                    <img class="card-img-top" src="@product.Images[0]" alt="Product" loading="lazy" width ="270" height="210">
-                    <div class="card-body">
-                        <h4><b>@product.Title</b></h4>
-                        <p>@product.Price?.ToString("C")</p>
-                        <button title="Delete" class="btn btn-danger btn-delete" @onclick="@(() => DeleteProduct(product))"><span class="oi oi-trash"></span></button>
 
-                    </div>
-                </div>
-            }
+
+
+@if (products?.Count > 0){
+    <div class= "products-item-container-4"   > 
+                      
+
+
+                @for(var  i = 0; i < 4; i++)
+                {
+            
+     
+                        <div class="card">
+                            <img class="card-img-top" src="@cards[i].image" alt="Product" loading="lazy" width ="270" height="210">
+                            <div class="card-body">
+                                @if(i == 0){
+                                    <div class="eb-button">
+                                        <a class="eb-button-anchor hvr-grow-rotate" @onclick="@(()=> NavigationManager.NavigateTo("/tecnovia"))"  target="_blank" rel="noopener">
+                                        <h4><b>@cards[i].titulo</b></h4>
+                                        </a>
+                                    </div>
+                                }
+                                else{
+                                  <div class="eb-button">
+                                        <a class="eb-button-anchor hvr-grow-rotate" href=@cards[i].url target="_blank" rel="noopener">
+                                        <h4><b>@cards[i].titulo</b></h4>
+                                        </a>
+                                    </div>
+                                }  
+                                <p class="p_center mt-2">@cards[i].descripcion </p> 
+                            </div>
+                        </div>
+                       
+                }
+    </div>
+    <div class= "products-item-container-3">
+                @for(var  i = 4; i <  7; i++)
+                {
+            
+     
+                        <div class="card">
+                            <img class="card-img-top" src="@cards[i].image" alt="Product" loading="lazy" width ="270" height="210">
+                            <div class="card-body">
+                                <div class="eb-button">
+                                    <a class="eb-button-anchor hvr-grow-rotate" href=@cards[i].url target="_blank" rel="noopener">
+                                       <h4><b>@cards[i].titulo</b></h4>
+                                    </a>
+                                </div>
+                                
+                                <p class="p_center mt-2">@cards[i].descripcion </p> 
+                            </div>
+                        </div>
+                       
+                }
+           
     </div>
 
- 
+}
+
+<div class="center_hr">
+    <hr class=" wp-block-separator">
+
+</div>
+
+
+<ModuleTitle Title="Novedades"/>
+<button class="btn btn-dark" @onclick="@(()=> NavigationManager.NavigateTo("/addproduct"))">  Add Product</button>
+@if (products?.Count > 0){
+<div class= "products-container">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            @foreach (var product in products)
+            {
+                  
+                    <div id="@($"carousel-item-{products.IndexOf(product)}")"  class="carousel-item @(products.IndexOf(product) == activeSlideIndex  ? "active" : "")">
+                        <div class="card">
+                            <img class="card-img-top d-block w-100" src="@product.Images[0]" alt="Product" loading="lazy" >
+                            <div class="card-body">
+                              
+                                        <h4><b>@product.Title</b></h4>
+                              
+                                    <p>@product.Price?.ToString("C")</p>
+                                    <button title="Delete" class="btn btn-danger btn-delete" @onclick="@(() => DeleteProduct(product))"><span class="oi oi-trash"></span></button>
+
+                            </div>
+                        </div>
+                            
+                           
+                    </div>
+            }
+        </div>
+         <a class="carousel-control-prev" href="/product" role="button" data-slide="prev" onclick="@(() => { activeSlideIndex--; if (activeSlideIndex < 0) { activeSlideIndex = products.Count - 1; } })">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="/product" role="button" data-slide="next" onclick="@NextSlide">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+  
+    </div>
+</div>
  }
 else{
  <p>
@@ -36,8 +120,48 @@ else{
  
  }
 
+<div class="content_button_party"  @onclick="ShowPopUp">
+        <a class="orientacion_button elementor-icon pum-trigger" style="cursor: pointer;">
+            <img decoding="async" src="https://img.icons8.com/office/80/null/birthday.png"> 
+        </a>
+</div>
+
+
+
 @code{
-    private List<Product>? products;
+   private async Task ShowPopUp()
+    {
+
+        bool confirmar=await IJSRuntime.InvokeAsync<bool>("confirmar");
+    }
+
+    List<Card> cards = new List<Card>()
+        {
+        new Card() { titulo = "Tecnovia", descripcion = "Tecnovia",image = $"img/grilla/tecnovia.jpg", url = "https://example.com/producto1" },
+        new Card() { titulo = "RRHH", descripcion = "Recursos humanos",image = "img/grilla/hr.jpg", url = "http://10.150.20.11/AUBASA_ERP_PROD/servlet/ar.com.glmsa.autopistas.erp.hlogin" },
+        new Card() { titulo = "Comercial", descripcion = "Comercial",image = "img/grilla/comercial.jpg", url = "http://10.150.20.11/AUBASA_COM_PROD/servlet/ar.com.glmsa.autopistas.comercial.hlogin"},
+        new Card() { titulo = "Atalaya", descripcion = "Sistema de asistencias",image = "img/grilla/atalaya.jpg", url = "http://atalaya.aubasa.com.ar/" },
+        new Card() { titulo = "Help Desk", descripcion = "Sistema de Tickets",image = "img/grilla/tikets.jpg", url = "http://osticket.aubasa.com.ar/"},
+        new Card() { titulo = "Adhesión Web", descripcion = "Administración de Adhesión Web",image = "img/grilla/adesionweb.jpg", url = "https://www.sixon.com.ar:8180/AdhesionesWeb/servlet/hlogin" },
+        new Card() { titulo = "ERP", descripcion = "Planificación de Recursos Empresariales",image = "img/grilla/erp.jpg", url = "http://10.150.20.11/AUBASA_ERP_PROD/servlet/ar.com.glmsa.autopistas.erp.hlogin"},
+        };
+
+      
+     
+
+private List<Product>? products;
+int activeSlideIndex = 0;
+
+void NextSlide()
+{
+    activeSlideIndex++;
+    if (activeSlideIndex >= products?.Count)
+    {
+        activeSlideIndex = 0;
+    }
+}
+
+    
 
 protected override async Task OnInitializedAsync()
 {

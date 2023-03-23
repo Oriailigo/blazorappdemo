@@ -34,8 +34,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/rioja/Desktop/blazorappdemo/Pages/Noticias/AddNoticia.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNpYXNcQWRkTm90aWNpYS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/rioja/Desktop/blazorappdemo/Pages/Products/AddProduct.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcQWRkUHJvZHVjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rioja/Desktop/blazorappdemo/Shared/Modal.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1vZGFsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/rioja/Desktop/blazorappdemo/Shared/ModuleTitle.razor]
@@ -50,9 +58,17 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/rioja/Desktop/blazorappdemo/Pages/Noticias/Noticias.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNpYXNcTm90aWNpYXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-mw8qj7fx5a
+
 [C:/Users/rioja/Desktop/blazorappdemo/Pages/Products/Products.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcUHJvZHVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-5t29arfb9z
+
+[C:/Users/rioja/Desktop/blazorappdemo/Pages/Products/Tecnovia.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcVGVjbm92aWEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-08cpppde7q
 
 [C:/Users/rioja/Desktop/blazorappdemo/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=

@@ -1,0 +1,51 @@
+
+@page "/addnoticia"
+
+@inject  INoticiaService noticiaService;
+@inject  ICategoryService categoryService;
+@inject  NavigationManager NavigationManager;
+
+<PageTitle>Add - Noticia</PageTitle>
+
+<ModuleTitle Title="Add noticia"/>
+
+<button class="btn btn-dark" @onclick="@(()=> NavigationManager.NavigateTo("/noticia"))"> Go back noticias</button>
+<EditForm Model="@noticia" OnSubmit="@Save">
+    <div class="row">
+            <div class="col-8 form-group">
+                <label for="title" class="col-form-label"> Title</label>
+
+                <InputText id="title" @bind-Value="noticia.Title" required class="form-control"/> 
+           </div>
+           <div class="col form-group">
+                <label for="url" class="col-form-label">Url (Url)</label>
+                <InputText id="url" @bind-Value="noticia.Url" required class="form-control" />
+            </div>
+    </div>
+    <div class="row">
+        <div class="col form-group">
+            <label for="image" class="col-form-label">Image (Url)</label>
+            <InputText id="image" @bind-Value="noticia.Image" required class="form-control" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="description" class="col-form-label">Description</label>
+        <InputTextArea id="description" @bind-Value="noticia.Description" required class="form-control"></InputTextArea>
+    </div>
+
+    <hr />
+    <button class="btn btn-primary" type="submit">Save</button>
+</EditForm>
+
+
+@code{
+    private Noticia noticia=new();
+
+    private async Task Save()
+    {
+        noticia.Images = new string[1] { noticia.Image };
+        await noticiaService.Add(noticia);
+        NavigationManager.NavigateTo("/noticia");
+    }
+
+ }

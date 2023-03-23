@@ -1,6 +1,90 @@
-.products-container{
+.products-item-container-4{
     display: grid;
-    grid-template-columns: repeat(auto-fill,280px);
+    grid-template-columns: repeat(4,280px);
     grid-auto-rows: auto;
     grid-gap:1rem;
+    justify-content: center;
+}
+
+.products-item-container-3{
+    display: grid;
+    grid-template-columns: repeat(3,280px);
+    grid-auto-rows: auto;
+    grid-gap:1rem;
+    justify-content: center;
+}
+
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,50%);
+    grid-auto-rows: auto;
+    grid-gap:1rem;
+    justify-content: center
+}
+
+
+
+ .eb-button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.eb-button a.eb-button-anchor {
+   
+    background-color: rgba(0,174,195,1);
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;  
+    padding: 13px 22px;
+   
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+.eb-button-anchor:hover {
+    cursor:pointer;
+}   
+.hvr-grow-rotate:hover {
+     transform: translateY(0);
+   transform: translateY(-30px);
+    transform: translateY(-15px);
+}
+.p_center{
+   text-align: center;
+}
+
+.content_button_party{
+    right: -7px;
+    bottom: 20.993px;
+    position: fixed;
+    z-index: 1;
+    margin: 0rem 2rem 0rem 0rem;
+    text-align: right;
+ }
+
+ .orientacion_button {
+    border-radius: 50%;
+    padding: 1.5em;
+    background-color: #368ed2;
+    color: #fff;
+    fill: #fff;
+    text-decoration: underline;
+}
+.elementor-icon {
+    display: inline-block;
+}
+.elementor-icon:hover {
+    background-color: #368ed2a4;
+}
+
+.wp-block-separator {
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    width: 70%;
+}
+.center_hr{
+    display: flex;
+    justify-content: center;
 }

@@ -1,0 +1,63 @@
+
+@page "/tecnovia"
+
+@inject  NavigationManager NavigationManager;
+
+<PageTitle>Tecnovia</PageTitle>
+
+<ModuleTitle Title="Tecnovia"/>
+
+<button class="btn btn-dark" @onclick="@(()=> NavigationManager.NavigateTo("/product"))"> Volver al home</button>
+
+<p> Aquí encontraras acceso a los distintos peajes:</p>
+
+    <div class= "tecnovia-container"   >                       
+                @for(var  i = 0; i < 5; i++)
+                {
+                        
+                       
+               
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                                 <div class="card">
+                                        <img class="card-img-top" src="@cards[i].image" alt="Product" loading="lazy" width ="270" height="210">
+                                        <div class="card-body">
+                                        
+                                                    <h4><b>@cards[i].titulo</b></h4>
+                                            
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="card">
+                                    <img class="card-img-top" src="img/tecnovia/atras.jpg" alt="Product" loading="lazy" width ="270" height="210">
+                                        
+                                    <div class="card-body">
+                                        
+                                        <div class="eb-button">
+                                                <a class="eb-button-anchor hvr-grow-rotate" href=@cards[i].url target="_blank" rel="noopener">
+                                                    <h4>Ir a <b>@cards[i].titulo</b></h4>
+                                                </a>
+                                        </div>
+                                              
+                                        
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 }
+    </div>
+
+@code{
+       List<Card> cards = new List<Card>()
+        {
+        new Card() { titulo = "Dock Sud", descripcion = "Dock Sud",image = "img/tecnovia/frente.jpg", url = "http://10.100.25.253:8081/Login.aspx" },
+        new Card() { titulo = "Bernal", descripcion = "Bernal",image = "img/tecnovia/frente.jpg", url = "http://10.100.25.253:8081/Login.aspx" },
+        new Card() { titulo = "Quilmes", descripcion = "Quilmes",image = "img/tecnovia/frente.jpg", url = "http://10.100.25.253:8081/Login.aspx"},
+        new Card() { titulo = "Berazategui", descripcion = "Berazategui",image = "img/tecnovia/frente.jpg", url = "http://10.100.25.253:8081/Login.aspx" },
+        new Card() { titulo = "Hudson", descripcion = "Hudson",image = "img/tecnovia/frente.jpg", url = "http://10.100.25.253:8081/Login.aspx"},
+        };
+
+ }

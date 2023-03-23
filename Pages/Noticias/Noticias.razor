@@ -1,0 +1,58 @@
+
+@page "/noticia"
+
+@inject ILogger<Noticias> logger;
+@inject  INoticiaService noticiaService;
+@inject  NavigationManager NavigationManager;
+@inject  IJSRuntime IJSRuntime;
+@inject  IToastService toastService;
+
+<PageTitle>Noticias</PageTitle>
+
+<ModuleTitle Title="Noticias"/>
+<button class="btn btn-dark" @onclick="@(()=> NavigationManager.NavigateTo("/addnoticia"))">  Add Noticia</button>
+@if (noticias?.Count > 0){
+    <div class= "noticias-container">
+            @foreach (var noticia in noticias)
+            {
+                <div class="card">
+                    <img class="card-img-top" src="@noticia.Images[0]" alt="noticia" loading="lazy" width ="270" height="210">
+                    <div class="card-body">
+                        <h4><b>@noticia.Title</b></h4>
+                        <p>@noticia.Description</p>
+                        <button title="Delete" class="btn btn-danger btn-delete" @onclick="@(() => DeleteNoticia(noticia))"><span class="oi oi-trash"></span></button>
+
+                    </div>
+                </div>
+            }
+    </div>
+
+ 
+ }
+else{
+ <p>
+    No hay noticias para mostrar.
+ </p> 
+ 
+ }
+
+@code{
+    private List<Noticia>? noticias;
+
+protected override async Task OnInitializedAsync()
+{
+    await GetNoticias();
+}
+    private async Task GetNoticias(){
+           noticias= await noticiaService.Get();
+    }
+    private async Task DeleteNoticia(Noticia noticia){
+     bool confirmed = await IJSRuntime.InvokeAsync<bool>("confirm", $"Are you sure? { noticia.Title}");   
+        if(!confirmed)
+            return; 
+        await noticiaService.Delete(noticia.Id);
+        toastService.ShowSuccess("noticia eliminado");
+        await GetNoticias();
+    }
+
+ }
