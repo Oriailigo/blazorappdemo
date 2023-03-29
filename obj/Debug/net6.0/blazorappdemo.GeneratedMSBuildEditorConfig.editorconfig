@@ -5,75 +5,77 @@ build_property.UsingMicrosoftNETSdkWeb =
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = false
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = browser
-build_property.EnableSingleFileAnalyzer = 
-build_property.EnableTrimAnalyzer = true
-build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = blazorappdemo
 build_property.RootNamespace = blazorappdemo
-build_property.ProjectDir = C:\Users\rioja\Desktop\blazorappdemo\
+build_property.ProjectDir = c:\Users\rioja\Desktop\blazorappdemo\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\rioja\Desktop\blazorappdemo
+build_property.MSBuildProjectDirectory = c:\Users\rioja\Desktop\blazorappdemo
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/rioja/Desktop/blazorappdemo/App.razor]
+[c:/Users/rioja/Desktop/blazorappdemo/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rioja/Desktop/blazorappdemo/Pages/Counter.razor]
+[c:/Users/rioja/Desktop/blazorappdemo/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rioja/Desktop/blazorappdemo/Pages/FetchData.razor]
+[c:/Users/rioja/Desktop/blazorappdemo/Pages/DataContext.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YUNvbnRleHQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/rioja/Desktop/blazorappdemo/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rioja/Desktop/blazorappdemo/Pages/Index.razor]
+[c:/Users/rioja/Desktop/blazorappdemo/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rioja/Desktop/blazorappdemo/Pages/Noticias/AddNoticia.razor]
+[c:/Users/rioja/Desktop/blazorappdemo/Pages/Noticias/AddNoticia.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNpYXNcQWRkTm90aWNpYS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rioja/Desktop/blazorappdemo/Pages/Products/AddProduct.razor]
+[c:/Users/rioja/Desktop/blazorappdemo/Pages/Products/AddProduct.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcQWRkUHJvZHVjdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rioja/Desktop/blazorappdemo/Shared/Modal.razor]
+[c:/Users/rioja/Desktop/blazorappdemo/Shared/Modal.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1vZGFsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rioja/Desktop/blazorappdemo/Shared/ModuleTitle.razor]
+[c:/Users/rioja/Desktop/blazorappdemo/Shared/ModuleTitle.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1vZHVsZVRpdGxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rioja/Desktop/blazorappdemo/Shared/SurveyPrompt.razor]
+[c:/Users/rioja/Desktop/blazorappdemo/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rioja/Desktop/blazorappdemo/_Imports.razor]
+[c:/Users/rioja/Desktop/blazorappdemo/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rioja/Desktop/blazorappdemo/Pages/Noticias/Noticias.razor]
+[c:/Users/rioja/Desktop/blazorappdemo/Pages/Noticias/Noticias.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNpYXNcTm90aWNpYXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-mw8qj7fx5a
 
-[C:/Users/rioja/Desktop/blazorappdemo/Pages/Products/Products.razor]
+[c:/Users/rioja/Desktop/blazorappdemo/Pages/Products/Products.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcUHJvZHVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-5t29arfb9z
 
-[C:/Users/rioja/Desktop/blazorappdemo/Pages/Products/Tecnovia.razor]
+[c:/Users/rioja/Desktop/blazorappdemo/Pages/Products/Tecnovia.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcVGVjbm92aWEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-08cpppde7q
 
-[C:/Users/rioja/Desktop/blazorappdemo/Shared/MainLayout.razor]
+[c:/Users/rioja/Desktop/blazorappdemo/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-rnook4l0vg
 
-[C:/Users/rioja/Desktop/blazorappdemo/Shared/NavMenu.razor]
+[c:/Users/rioja/Desktop/blazorappdemo/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-t6sqovoj5n

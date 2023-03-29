@@ -32,6 +32,7 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-jOmoWSfsdQexH\/6QCA56gR1RMEqeix2iDDUBWbpAOQI=",
       "Microsoft.JSInterop.dll": "sha256-iWMp8jiBOHzzLH3kp3R6NxvZ4O1YC5M96cqeH2l\/U+A=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-Gg9LBlaJWdtb3sSzYeYmfRVL27Dj19DRx543CX2pbqs=",
+      "MySqlConnector.dll": "sha256-dFDmbSfVXlRVe84+VGIuxzCiiW2KB2hKKZRingTS984=",
       "System.IO.Pipelines.dll": "sha256-6+E55JXedimdw1c1bDtVg4K7XuWjVWVTifH8QpfzXSY=",
       "Microsoft.CSharp.dll": "sha256-rP89uFQJ0BDoy22bKa2Xa37m\/rRVEUlORW82XMV6QkA=",
       "Microsoft.VisualBasic.Core.dll": "sha256-G81hPVAFXwb99vepzMDbl\/aG\/f9XiclEXxW9JDxViBU=",
@@ -199,13 +200,13 @@
       "mscorlib.dll": "sha256-y7DhCb2PceYWjnHWsZokJrty551Q9XISH3Z72o6RdwI=",
       "netstandard.dll": "sha256-REs1\/xYvAzuX2k2Y5p\/5IaM3O\/zaiYSW62pOQBGMrrA=",
       "System.Private.CoreLib.dll": "sha256-Bz7VnNtt03SzAvIN30yx1e25P6SfMdLYIaKIy7ASEnw=",
-      "blazorappdemo.dll": "sha256-0EiAMhCm5a9vLSTIxkUjGemGFuIyTr1Ut2p8G\/RC1a4="
+      "blazorappdemo.dll": "sha256-p+VC6HrVrS7pL20JZ\/QbXZVQ67o32\/NK3QfBDAoYuoo="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "blazorappdemo.pdb": "sha256-FpFzbcHUpfzIld7OpvNvUe3bxNfl2mIV3ipToBhvgjc="
+      "blazorappdemo.pdb": "sha256-PcT3fxYn+NPh5vANEqJRHnOtmUw6U8keO1rV0JstK5g="
     },
     "runtime": {
       "dotnet.6.0.15.8lswqixcah.js": "sha256-fb2wBZaRp096nChMG9nDNEcW0kW1whA\/kfQNyH+5QpQ=",

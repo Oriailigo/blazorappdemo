@@ -1,0 +1,32 @@
+﻿@page "/DataContext"
+@inject  IDataContext dataContext;
+@inject  NavigationManager NavigationManager;
+@inject  IJSRuntime IJSRuntime;
+<PageTitle>Context</PageTitle>
+
+
+<ModuleTitle Title="Context"/>
+ <p> Hola datos de suuario</p> 
+@if (usuarios?.Count > 0){
+   
+                @for(var  i = 0; i < 4; i++)
+                {
+                    <p> @usuarios[i].Nombre</p> 
+                }
+}
+
+
+
+@code {
+    private List<Usuario>? usuarios;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await GetUsuarios();
+    }
+     private async Task GetUsuarios(){
+           usuarios= await dataContext.Get();
+    }
+
+    
+}

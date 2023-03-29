@@ -1640,3 +1640,7 @@ C:\Users\rioja\Desktop\blazorappdemo\obj\Debug\net6.0\blazorappdemo.csproj.CopyC
 C:\Users\rioja\Desktop\blazorappdemo\obj\Debug\net6.0\ref\blazorappdemo.dll
 C:\Users\rioja\Desktop\blazorappdemo\obj\Debug\net6.0\scopedcss\Pages\Noticias\Noticias.razor.rz.scp.css
 C:\Users\rioja\Desktop\blazorappdemo\obj\Debug\net6.0\scopedcss\Pages\Products\Tecnovia.razor.rz.scp.css
+C:\Users\rioja\Desktop\blazorappdemo\bin\Debug\net6.0\wwwroot\_framework\MySqlConnector.dll
+C:\Users\rioja\Desktop\blazorappdemo\bin\Debug\net6.0\wwwroot\_framework\MySqlConnector.dll.gz
+C:\Users\rioja\Desktop\blazorappdemo\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\rioja\Desktop\blazorappdemo\obj\Debug\net6.0\build-gz\yC14bJne.gz

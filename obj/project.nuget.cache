@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "viX+tN/lrfuNUZvDBiaildKTOxPcNB2BgNGvEZhTcoOKfCqhXtfBjWK7TGz6NVJMLh/tIVY5hvLwVfWBder3sA==",
+  "dgSpecHash": "09Li6RhnhTvyNy9lLNEAdWaG5yObGlHMrk3pe2t8f5mmS0WyKLYHx+J+/F19/jtxVJcrCH5PRYyNnV7RMS8zGw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rioja\\Desktop\\blazorappdemo\\blazorappdemo.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,7 @@
     "C:\\Users\\rioja\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\rioja\\.nuget\\packages\\microsoft.jsinterop\\6.0.15\\microsoft.jsinterop.6.0.15.nupkg.sha512",
     "C:\\Users\\rioja\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.15\\microsoft.jsinterop.webassembly.6.0.15.nupkg.sha512",
+    "C:\\Users\\rioja\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",
     "C:\\Users\\rioja\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\rioja\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\rioja\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",

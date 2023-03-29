@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NeaH9sT5d9pjH9U6XSS73oQUDM08FURjXy4M/yc0E1E=",
+  "Hash": "XpSY2UzVWrAMl9b6D8wI1tCf2pQBDoTG+dqCEfTbWLY=",
   "Source": "blazorappdemo",
   "BasePath": "/",
   "Mode": "Root",
@@ -712,6 +712,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\rioja\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.15\\runtimes\\browser-wasm\\lib\\net6.0\\mscorlib.dll"
+    },
+    {
+      "Identity": "C:\\Users\\rioja\\Desktop\\blazorappdemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MySqlConnector.dll",
+      "SourceId": "blazorappdemo",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\rioja\\Desktop\\blazorappdemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MySqlConnector.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\rioja\\.nuget\\packages\\mysqlconnector\\2.2.5\\lib\\net6.0\\MySqlConnector.dll"
     },
     {
       "Identity": "C:\\Users\\rioja\\Desktop\\blazorappdemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\netstandard.dll",
@@ -6662,6 +6679,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\rioja\\Desktop\\blazorappdemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Extensions.dll"
+    },
+    {
+      "Identity": "C:\\Users\\rioja\\Desktop\\blazorappdemo\\obj\\Debug\\net6.0\\build-gz\\yC14bJne.gz",
+      "SourceId": "blazorappdemo",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\rioja\\Desktop\\blazorappdemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MySqlConnector.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\rioja\\Desktop\\blazorappdemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MySqlConnector.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\rioja\\Desktop\\blazorappdemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MySqlConnector.dll"
     },
     {
       "Identity": "C:\\Users\\rioja\\Desktop\\blazorappdemo\\obj\\Debug\\net6.0\\build-gz\\YHsnqzj9.gz",
